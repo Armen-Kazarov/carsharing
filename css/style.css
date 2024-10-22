@@ -4178,6 +4178,11 @@
   }
 
   @media (max-width: 481px) {
+    .custom-select,
+    .burger-menu {
+      width: 118px;
+    }
+
     .hero__content-wrapper {
       padding-top: 0;
     }
