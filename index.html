@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carsharing</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  </head>
+  <body>
+    <header class="header">
+      <div class="custom-container">
+        <div class="header-content-wrapper flex-container">
+          <a href="#" class="logo header-logo">
+            <img src="./images/icons/mini-logo.svg" alt="site logo">
+          </a>
+          <nav class="header-nav-menu flex-container">
+            <div class="custom-select">
+              <div class="select-selected">
+                English
+                <span class="select-btn">
+                  <svg class="select-btn__icon" width="10" height="6">
+                    <title>icon-chevron</title>
+                    <use href="./images/icons/chevron.svg#chevron"></use>
+                  </svg>
+                </span>
+              </div>
+              <div class="select-items select-hide">
+                  <div>English</div>
+                  <div>Polish</div>
+              </div>
+            </div>
+            <div class="burger-menu flex-container">
+              <h3 class="burger-menu__title">
+                menu
+              </h3>
+              <span class="menu__icon-wrapper">
+                <span class="menu__icon">
+                  <span></span>
+                </span>
+              </span>
+            </div>
+            <div class="menu__body">
+              <h2 class="menu__body-mobile-title">
+                menu
+              </h2>
+              <div class="menu__body-some-decoration">
+                <h2 class="menu__body-title">
+                  menu
+                </h2>
+                <div class="menu__body-img-wrapper">
+                  <img src="./images/burger-menu/menu-body-car.png" alt="tesla car" class="menu__body-car-picture">
+                </div>
+              </div>
+              <div class="menu-list-buttons-wrapper">
+                <div class="menu__button-close-wrapper">
+                  <span class="menu__button-close"></span>
+                </div>
+                <div class="menu-list__wrapper">
+                  <ul class="header-nav-menu-list menu-list">
+                    <li class="menu-list-item header-nav-menu-list-item">
+                      <a href="#" class="menu-list-item-link header-menu-list-item-link-color">
+                        Fraud Detection
+                      </a>
+                    </li>
+                    <li class="menu-list-item header-nav-menu-list-item">
+                      <a href="#" class="menu-list-item-link header-menu-list-item-link-color">
+                        Authentication
+                      </a>
+                    </li>
+                    <li class="menu-list-item header-nav-menu-list-item">
+                      <a href="#" class="menu-list-item-link header-menu-list-item-link-color">
+                        Identity Verification
+                      </a>
+                    </li>
+                    <li class="menu-list-item header-nav-menu-list-item">
+                      <a href="#" class="menu-list-item-link header-menu-list-item-link-color">
+                        Disputes
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="buttons menu__body-buttons">
+                  <a href="#" class="btn btn-google">
+                    <img src="./images/icons/google-appstore-icons/play-market-icon.svg" alt="google play icon" class="btn__logo">
+                    <img src="./images/icons/google-appstore-icons/play-market-text.svg" alt="google play text" class="btn__text">
+                  </a>
+                  <a href="#" class="btn btn-apple">
+                    <img src="./images/icons/google-appstore-icons/app-store-icon.svg" alt="app store icon" class="btn__logo">
+                    <img src="./images/icons/google-appstore-icons/app-store-text.svg" alt="app store text" class="btn__text">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <!-- START hero section -->
+      <section class="section hero">
+        <div class="custom-container">
+          <div class="hero__content-main-wrapper">
+            <div class="hero__content-wrapper">
+              <h1 class="hero__title">
+                carsharing<br> tesla in <br> <span>wroclaw</span>  
+              </h1>
+              <p class="hero__content-text">
+                freedom of<br>movement<br>from <span>0&#46;70&nbsp;pln</span> per<br>minute
+              </p>
+              <div class="buttons hero__buttons">
+                <a href="#" class="btn btn-google">
+                  <img src="./images/icons/google-appstore-icons/play-market-icon.svg" alt="google play icon" class="btn__logo">
+                  <img src="./images/icons/google-appstore-icons/play-market-text.svg" alt="google play text" class="btn__text">
+                </a>
+                <a href="#" class="btn btn-apple">
+                  <img src="./images/icons/google-appstore-icons/app-store-icon.svg" alt="app store icon" class="btn__logo">
+                  <img src="./images/icons/google-appstore-icons/app-store-text.svg" alt="app store text" class="btn__text">
+                </a>
+              </div>
+            </div>
+            <div class="hero__background-picture">
+              <div class="hero__background-picture-img-wrapper">
+                <img src="./images/hero-section/car.png" alt="tesla car">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END hero section -->
+
+      <!-- START sharing give section -->
+      <section class="section sharing-give-list-section">
+        <div class="custom-container">
+          <div class="section-content-wrapper">
+            <h2 class="section-title sharing-give-list-section__title">
+              <span>what does tesla car</span><br> sharing give&#63;
+            </h2>
+            <ul class="sharing-give-list-items flex-container">
+              <li class="sharing-give-list__item">
+                <div class="sharing-give-list__item-content-wrapper">
+                  <div class="sharing-give-list__item-img-wrapper">
+                    <img src="./images/sharing-give-section/free-parking.svg" alt="auto on parking" class="sharing-give-list__item-icon">
+                  </div>
+                  <div class="sharing-give-list__item-info">
+                    <p class="sharing-give-list__item-text">
+                      free parking
+                    </p>
+                    <svg class="sharing-give-list__item-icon-chevron" width="10" height="6">
+                      <title>icon-chevron</title>
+                      <use href="./images/icons/chevron.svg#chevron"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="sharing-give-list__item-additional-text">
+                  <p>
+                    You will no longer have to look for a parking space in the city. In addition, you will have special places for electric cars.
+                  </p>
+                  <svg class="sharing-give-list__item-icon-chevron--rotate" width="10" height="6">
+                    <title>icon-chevron</title>
+                    <use href="./images/icons/chevron.svg#chevron"></use>
+                  </svg>
+                </div>
+              </li>
+              <li class="sharing-give-list__item">
+                <div class="sharing-give-list__item-content-wrapper">
+                  <div class="sharing-give-list__item-img-wrapper sharing-give-list__item-img-wrapper--responsive-margin">
+                    <img src="./images/sharing-give-section/bus-lanes.svg" alt="bus" class="sharing-give-list__item-icon">
+                  </div>
+                  <div class="sharing-give-list__item-info">
+                    <p class="sharing-give-list__item-text">
+                      EVS on Bus <span>Lanes</span> 
+                    </p>
+                    <svg class="sharing-give-list__item-icon-chevron sharing-give-list__item-icon-chevron--responsive-position" width="10" height="6">
+                      <title>icon-chevron</title>
+                      <use href="./images/icons/chevron.svg#chevron"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="sharing-give-list__item-additional-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum rem consequatur repudiandae reiciendis odit quo
+                  </p>
+                  <svg class="sharing-give-list__item-icon-chevron--rotate" width="10" height="6">
+                    <title>icon-chevron</title>
+                    <use href="./images/icons/chevron.svg#chevron"></use>
+                  </svg>
+                </div>
+              </li>
+              <li class="sharing-give-list__item">
+                <div class="sharing-give-list__item-content-wrapper">
+                  <div class="sharing-give-list__item-img-wrapper sharing-give-list__item-img-wrapper--margin-bottom sharing-give-list__item-img-wrapper--responsive-margin">
+                    <img src="./images/sharing-give-section/charging.svg" alt="charging station" class="sharing-give-list__item-icon">
+                  </div>
+                  <div class="sharing-give-list__item-info">
+                    <p class="sharing-give-list__item-text">
+                      Charging Included <span>in Price</span>
+                    </p>
+                    <svg class="sharing-give-list__item-icon-chevron sharing-give-list__item-icon-chevron--responsive-position" width="10" height="6">
+                      <title>icon-chevron</title>
+                      <use href="./images/icons/chevron.svg#chevron"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="sharing-give-list__item-additional-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum rem consequatur repudiandae reiciendis odit quo
+                  </p>
+                  <svg class="sharing-give-list__item-icon-chevron--rotate" width="10" height="6">
+                    <title>icon-chevron</title>
+                    <use href="./images/icons/chevron.svg#chevron"></use>
+                  </svg>
+                </div>
+              </li>
+              <li class="sharing-give-list__item">
+                <div class="sharing-give-list__item-content-wrapper sharing-give-list__item-content-wrapper--none-padding-top">
+                  <div class="sharing-give-list__item-img-wrapper sharing-give-list__item-img-wrapper--margin-bottom-small">
+                    <img src="./images/sharing-give-section/easy-to-use.svg" alt="phone in hand" class="sharing-give-list__item-icon">
+                  </div>
+                  <div class="sharing-give-list__item-info">
+                    <p class="sharing-give-list__item-text">
+                      Easy to use
+                    </p>
+                    <svg class="sharing-give-list__item-icon-chevron" width="10" height="6">
+                      <title>icon-chevron</title>
+                      <use href="./images/icons/chevron.svg#chevron"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="sharing-give-list__item-additional-text sharing-give-list__item-additional-text--margin-top-responsive">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum rem consequatur repudiandae reiciendis odit quo
+                  </p>
+                  <svg class="sharing-give-list__item-icon-chevron--rotate" width="10" height="6">
+                    <title>icon-chevron</title>
+                    <use href="./images/icons/chevron.svg#chevron"></use>
+                  </svg>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- END sharing give section -->
+
+      <!-- START download mobile app section -->
+       <section class="section download-mobile-app-section">
+        <div class="custom-container">
+          <div class="download-mobile-app-section__content-wrapper">
+            <h2 class="section-title download-mobile-app-section__title">
+              download<br>our mobile<br>app&#33;
+            </h2>
+            <p class="download-mobile-app-section__text">
+              download our app and take advantage of various<br> promotions and offers&#33;
+            </p>
+            <div class="buttons download-app-section-buttons">
+              <a href="" class="btn btn-google">
+                <img src="./images/icons/google-appstore-icons/play-market-icon.svg" alt="google play icon" class="btn__logo">
+                <img src="./images/icons/google-appstore-icons/play-market-text.svg" alt="google play text" class="btn__text">
+              </a>
+              <a href="" class="btn btn-apple">
+                <img src="./images/icons/google-appstore-icons/app-store-icon.svg" alt="app store icon" class="btn__logo">
+                <img src="./images/icons/google-appstore-icons/app-store-text.svg" alt="app store text" class="btn__text">
+              </a>
+            </div>
+            <div class="download-mobile-app-section__img-wrapper">
+              <img src="./images/download-app-section/mobile.png" alt="mobile phone with some info">
+            </div>
+          </div>
+        </div>
+       </section>
+      <!-- END download mobile app section -->
+
+      <!-- START how it works section -->
+       <section class="section how-it-works-section">
+        <div class="custom-container">
+          <h2 class="section-title how-it-works-section-title">
+            how it works
+          </h2>
+          <div class="how-it-works-section__content-wrapper">
+            <ul class="how-it-works-steps-list-left">
+              <li class="how-it-works-steps-list-left__item how-it-works-steps-list-left__item-top">
+                <img src="./images/how-it-works-section/parking-sign.svg" alt="Parking sign" class="how-it-works-steps-list-left__item-icon">
+                <div class="how-it-works-steps-list-left__item-info-top">
+                  <h3 class="how-it-works-steps-list__item-info-title">
+                    Step 4
+                  </h3>
+                  <p class="how-it-works-steps-list__item-info-text">
+                    End your ride by parking<br>your vehicle in a DOT CAR-<br>authorized area...
+                  </p>
+                </div>
+              </li>
+              <li class="how-it-works-steps-list-left__item how-it-works-steps-list-left__item-bottom">
+                <img src="./images/how-it-works-section/smartphone-in-hands.svg" alt="Smartphone in hands" class="how-it-works-steps-list-left__item-icon">
+                <div class="how-it-works-steps-list__item-info">
+                  <h3 class="how-it-works-steps-list__item-info-title">
+                    Step 3
+                  </h3>
+                  <p class="how-it-works-steps-list__item-info-text">
+                    Download DOT CAR app for<br>iOS or Android
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <div class="how-it-works-section__big-logo">
+              <img src="./images/how-it-works-section/logo.svg" alt="Logo" class="how-it-works-section__big-logo-icon">
+              <img src="./images/how-it-works-section/logo-mobile.svg" alt="Logo" class="how-it-works-section__big-logo-icon-mobile">
+              <div class="border-svg">
+                <svg width="625" height="625" viewBox="0 0 627 627" fill="none" xmlns="http://www.w3.org/2000/svg" class="border-desktop">
+                  <mask id="path-1-inside-1_249_4429" fill="white">
+                    <path d="M627 313.5C627 486.641 486.641 627 313.5 627C140.359 627 0 486.641 0 313.5C0 140.359 140.359 0 313.5 0C486.641 0 627 140.359 627 313.5ZM0.853119 313.5C0.853119 486.17 140.83 626.147 313.5 626.147C486.17 626.147 626.147 486.17 626.147 313.5C626.147 140.83 486.17 0.853119 313.5 0.853119C140.83 0.853119 0.853119 140.83 0.853119 313.5Z"/>
+                  </mask>
+                  <path d="M627 313.5C627 486.641 486.641 627 313.5 627C140.359 627 0 486.641 0 313.5C0 140.359 140.359 0 313.5 0C486.641 0 627 140.359 627 313.5ZM0.853119 313.5C0.853119 486.17 140.83 626.147 313.5 626.147C486.17 626.147 626.147 486.17 626.147 313.5C626.147 140.83 486.17 0.853119 313.5 0.853119C140.83 0.853119 0.853119 140.83 0.853119 313.5Z" stroke="#B5B5B5" stroke-width="2" mask="url(#path-1-inside-1_249_4429)"/>
+                  <mask id="path-2-inside-2_249_4429" fill="white">
+                    <path d="M313.5 0C254.01 -7.09414e-07 195.748 16.9267 145.518 48.8032C95.2891 80.6796 55.1664 126.19 29.8367 180.018L32.6734 181.353C57.7498 128.063 97.4712 83.0079 147.198 51.4502C196.925 19.8925 254.605 3.13501 313.5 3.13501V0Z"/>
+                  </mask>
+                  <path class="animated-path" d="M313.5 0C254.01 -7.09414e-07 195.748 16.9267 145.518 48.8032C95.2891 80.6796 55.1664 126.19 29.8367 180.018L32.6734 181.353C57.7498 128.063 97.4712 83.0079 147.198 51.4502C196.925 19.8925 254.605 3.13501 313.5 3.13501V0Z" stroke="#096AFB" stroke-width="12" mask="url(#path-2-inside-2_249_4429)"/>
+                  <circle class="animated-circle" cx="30" cy="182" r="8" fill="#096AFB"/>
+                </svg>
+                <svg width="334" height="334" viewBox="0 0 334 334" fill="none" xmlns="http://www.w3.org/2000/svg" class="border-mobile">
+                  <mask id="path-1-inside-1_288_4359" fill="white">
+                  <path d="M334 167C334 259.232 259.232 334 167 334C74.7684 334 0 259.232 0 167C0 74.7684 74.7684 0 167 0C259.232 0 334 74.7684 334 167ZM0.454453 167C0.454453 258.981 75.0194 333.546 167 333.546C258.981 333.546 333.546 258.981 333.546 167C333.546 75.0194 258.981 0.454453 167 0.454453C75.0194 0.454453 0.454453 75.0194 0.454453 167Z"/>
+                  </mask>
+                  <path d="M334 167C334 259.232 259.232 334 167 334C74.7684 334 0 259.232 0 167C0 74.7684 74.7684 0 167 0C259.232 0 334 74.7684 334 167ZM0.454453 167C0.454453 258.981 75.0194 333.546 167 333.546C258.981 333.546 333.546 258.981 333.546 167C333.546 75.0194 258.981 0.454453 167 0.454453C75.0194 0.454453 0.454453 75.0194 0.454453 167Z" stroke="#B5B5B5" stroke-width="1.06539" mask="url(#path-1-inside-1_288_4359)"/>
+                  <mask id="path-2-inside-2_288_4359" fill="white">
+                  <path d="M167 0C130.57 -4.34428e-07 95.1384 11.9126 66.1079 33.9219C37.0774 55.9311 16.0402 86.8295 6.20325 121.907C-3.63368 156.984 -1.73066 194.316 11.6222 228.211C24.9751 262.106 49.0453 290.705 80.1634 309.648L81.0317 308.221C50.2248 289.468 26.3953 261.155 13.176 227.599C-0.0433506 194.042 -1.92735 157.084 7.81122 122.358C17.5498 87.6312 38.3767 57.0418 67.1169 35.2526C95.857 13.4635 130.934 1.67 167 1.67V0Z"/>
+                  </mask>
+                  <path d="M167 0C130.57 -4.34428e-07 95.1384 11.9126 66.1079 33.9219C37.0774 55.9311 16.0402 86.8295 6.20325 121.907C-3.63368 156.984 -1.73066 194.316 11.6222 228.211C24.9751 262.106 49.0453 290.705 80.1634 309.648L81.0317 308.221C50.2248 289.468 26.3953 261.155 13.176 227.599C-0.0433506 194.042 -1.92735 157.084 7.81122 122.358C17.5498 87.6312 38.3767 57.0418 67.1169 35.2526C95.857 13.4635 130.934 1.67 167 1.67V0Z" stroke="#096AFB" stroke-width="6.39234" mask="url(#path-2-inside-2_288_4359)"/>
+                  <circle cx="80.2616" cy="309.262" r="4.26156" fill="#096AFB"/>
+                  </svg>
+              </div>
+            </div>
+            <ul class="how-it-works-steps-list-right">
+              <li class="how-it-works-steps-list-right__item how-it-works-steps-list-right__item-top">
+                <img src="./images/how-it-works-section/device.svg" alt="smartphone" class="how-it-works-steps-list-right__item-icon">
+                <div class="how-it-works-steps-list-right__item-info how-it-works-steps-list-right__item-info-top">
+                  <h3 class="how-it-works-steps-list__item-info-title how-it-works-steps-list-right__item-info-title">
+                    Step 1
+                  </h3>
+                  <p class="how-it-works-steps-list__item-info-text how-it-works-steps-list-right__item-info-text">
+                    Once your documents<br>have been verified, find the<br>closest car on the map...
+                  </p>
+                </div>
+              </li>
+              <li class="how-it-works-steps-list-right__item how-it-works-steps-list-right__item-bottom">
+                <img src="./images/how-it-works-section/phone-in-hand.svg" alt="Smartphone in hand" class="how-it-works-steps-list-right__item-icon">
+                <div class="how-it-works-steps-list-right__item-info">
+                  <h3 class="how-it-works-steps-list__item-info-title how-it-works-steps-list-right__item-info-title">
+                    Step 2
+                  </h3>
+                  <p class="how-it-works-steps-list__item-info-text how-it-works-steps-list-right__item-info-text">
+                    Open an account and wait<br>for verification...
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- START swiper -->
+           <div class="slider">
+            <div class="swiper">
+              <ul class="swiper-wrapper how-it-works-swiper-sliders">
+                <li class="swiper-slide how-it-works-swiper-sliders__slide">
+                  <div class="how-it-works-swiper-sliders__slide-content-wrapper">
+                    <img src="./images/how-it-works-section/device.svg" alt="smartphone" class="how-it-works-swiper-sliders__slide-icon how-it-works-swiper-sliders__slide-icon-device">
+                    <div class="how-it-works-swiper-sliders__slide-info">
+                      <h3 class="how-it-works-swiper-sliders__slide-info-title">
+                        Step 1
+                      </h3>
+                      <p class="how-it-works-swiper-sliders__slide-info-text">
+                        Once your documents<br>have been verified, find the<br>closest car on the map...
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="swiper-slide how-it-works-swiper-sliders__slide">
+                  <div class="how-it-works-swiper-sliders__slide-content-wrapper">
+                    <img src="./images/how-it-works-section/phone-in-hand.svg" alt="Smartphone in hand" class="how-it-works-swiper-sliders__slide-icon how-it-works-swiper-sliders__slide-icon-smartphone">
+                    <div class="how-it-works-swiper-sliders__slide-info">
+                      <h3 class="how-it-works-swiper-sliders__slide-info-title">
+                        Step 2
+                      </h3>
+                      <p class="how-it-works-swiper-sliders__slide-info-text">
+                        Open an account and wait<br>for verification...
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="swiper-slide how-it-works-swiper-sliders__slide">
+                  <div class="how-it-works-swiper-sliders__slide-content-wrapper">
+                    <img src="./images/how-it-works-section/smartphone-in-hands.svg" alt="Smartphone in hands" class="how-it-works-swiper-sliders__slide-icon how-it-works-swiper-sliders__slide-icon-phone-in-hands">
+                    <div class="how-it-works-swiper-sliders__slide-info how-it-works-swiper-sliders__slide-info--pading-left">
+                      <h3 class="how-it-works-swiper-sliders__slide-info-title">
+                        Step 3
+                      </h3>
+                      <p class="how-it-works-swiper-sliders__slide-info-text">
+                        Download DOT CAR app for<br>iOS or Android
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="swiper-slide how-it-works-swiper-sliders__slide">
+                  <div class="how-it-works-swiper-sliders__slide-content-wrapper">
+                    <img src="./images/how-it-works-section/parking-sign.svg" alt="Parking sign" class="how-it-works-swiper-sliders__slide-icon how-it-works-swiper-sliders__slide-icon-parking-sign">
+                    <div class="how-it-works-swiper-sliders__slide-info">
+                      <h3 class="how-it-works-swiper-sliders__slide-info-title">
+                        Step 4
+                      </h3>
+                      <p class="how-it-works-swiper-sliders__slide-info-text">
+                        End your ride by parking<br>your vehicle in a DOT CAR-<br>authorized area...
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="pagination">
+                <span class="pagination__button"></span>
+                <span class="pagination__button"></span>
+                <span class="pagination__button"></span>
+                <span class="pagination__button"></span>
+              </div>
+             </div>
+            </div>
+          <!-- END swiper -->
+        </div>
+       </section>
+      <!-- END how it works section -->
+
+      <!-- START Available models section -->
+       <section class="section available-models-section">
+        <div class="custom-container">
+          <h2 class="section-title available-models-section__title">
+            Available<br>models
+          </h2>
+          <div class="available-models-section__content-main-wrapper">
+            <div class="available-models-section__content-wrapper">
+              <p class="available-models-section__text">
+                Trip from
+                <span class="available-models-section__text-price">
+                  1.03 <span>zł</span>
+                </span>
+                <a href="#" class="available-models-section__text-link">
+                  Order
+                </a>
+              </p>
+              <img src="./images/avaliable-models-section/car.png" alt="Tesla car" class="available-models-section__img">
+            </div>
+          </div>
+        </div>
+       </section>
+      <!-- END Available models section -->
+
+      <!-- START form with map section -->
+       <section class="section form-with-map-section">
+        <div class="custom-container">
+          <div class="map-wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10669.104927948094!2d17.026669576432337!3d51.1197490432932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2spl!4v1729429058820!5m2!1sru!2spl"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <form action="#" target="_blank" class="form-with-map-section__form">
+            <div class="form-with-map-section__form-main-wrapper">
+              <h3 class="form-with-map-section__form-title">
+                DOT CAR trip calculation and pick up / finishing zones
+              </h3>
+              <div class="form-with-map-section__form-inputs-wrapper">
+                <input 
+                     id="starting-address"
+                     name="starting-address"       
+                     type="text"
+                     class="form-with-map-section__form-input"
+                     placeholder="Starting Address:"
+                     required>
+                <input 
+                     id="destination-address:"
+                     name="destination-address:"       
+                     type="text"
+                     class="form-with-map-section__form-input"
+                     placeholder="Destination Address:"
+                     required>
+              </div>
+            </div>
+            <div class="form-with-map-section__form-text-button-wrapper-bg">
+              <div class="form-with-map-section__form-text-button-wrapper">
+                <div class="form-with-map-section__form-text-parameters-wrapper">
+                  <ul class="form-with-map-section__form-parameters-list-items">
+                    <li class="form-with-map-section__form-parameters-list-item">
+                      <h3 class="form-with-map-section__form-parameters-list-item-title">
+                        Parameter
+                      </h3>
+                    </li>
+                    <li class="form-with-map-section__form-parameters-list-item">
+                      Distance (km)
+                    </li>
+                    <li class="form-with-map-section__form-parameters-list-item">
+                      Time (minutes)
+                    </li>
+                    <li class="form-with-map-section__form-parameters-list-item">
+                      Cost (PLN)
+                    </li>
+                    <li class="form-with-map-section__form-parameters-list-item">
+                      Battery usage % from 100%
+                    </li>
+                  </ul>
+                  <ul class="form-with-map-section__form-parameters-list-items form-with-map-section__form-values-list-items">
+                    <li class="form-with-map-section__form-parameters-list-item form-with-map-section__form-values-list-item">
+                      <h3 class="form-with-map-section__form-parameters-list-item-title form-with-map-section__form-values-list-item-title">
+                        Value
+                      </h3>
+                    </li>
+                    <li class="form-with-map-section__form-parameters-list-item form-with-map-section__form-values-list-item">
+                      <span id="distance" class="form-with-map-section__form-values-list-item-distance">
+                        0.00
+                      </span>
+                      (km)
+                    </li>
+                    <li class="form-with-map-section__form-parameters-list-item form-with-map-section__form-values-list-item">
+                      <time datetime="PT0M">0.00</time> (min)
+                    </li>
+                    <li class="form-with-map-section__form-parameters-list-item form-with-map-section__form-values-list-item">
+                      <span id="total-amount" data-amount="" class="form-with-map-section__form-values-list-item-total-amount">
+                        0.00
+                      </span>
+                       (PLN)
+                    </li>
+                    <li class="form-with-map-section__form-parameters-list-item form-with-map-section__form-values-list-item">
+                      <span id="battery-charge" class="form-with-map-section__form-values-list-item-battery-charge">
+                        100
+                      </span>
+                      %
+                    </li>
+                  </ul>
+                </div>
+                <button type="submit" class="btn form-with-map-section__form-button">
+                  go
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+       </section>
+      <!-- END form with map section -->
+
+      <!-- START frequently asked questions section-->
+      <section class="section frequently-asked-questions-section">
+        <div class="custom-container">
+          <div class="frequently-asked-questions-section-content-wrapper flex-container">
+            <h2 class="section-title frequently-asked-questions-section__title">
+              Frequently asked<br>questions
+            </h2>
+            <div class="questions">
+              <details class="details">
+                <summary class="details__title"> How does DOT CAR work? 
+                  <span class="list-questions__quetion-title-btn">
+                    <svg class="list-questions__quetion-title-icon" width="10" height="6">
+                      <title>icon-chevron</title>
+                      <use href="./images/icons/chevron.svg#chevron"></use>
+                      </svg>
+                    </span>
+                </summary>
+                <div class="details__content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum omnis beatae itaque! Maxime consequuntur architecto, voluptatibus iste aliquid quaerat dolores, culpa repellendus optio omnis rem saepe quisquam incidunt, numquam molestias?</p>
+                </div>
+              </details>
+              <details class="details">
+                <summary class="details__title">Is DOT CAR easy to integrate with?
+                  <span class="list-questions__quetion-title-btn">
+                    <svg class="list-questions__quetion-title-icon" width="10" height="6">
+                      <title>icon-chevron</title>
+                      <use href="./images/icons/chevron.svg#chevron"></use>
+                    </svg>
+                  </span>
+                </summary>
+                <div class="details__content">
+                  <p>Yes, DOT CAR provides simple APIs and extensive documentation to ensure that businesses can quickly and easily integrate our services into their existing platforms.</p>
+                </div>
+              </details>
+              <details class="details">
+                <summary class="details__title">How reliable is DOT CAR's platform?
+                  <span class="list-questions__quetion-title-btn">
+                    <svg class="list-questions__quetion-title-icon" width="10" height="6">
+                      <title>icon-chevron</title>
+                      <use href="./images/icons/chevron.svg#chevron"></use>
+                    </svg>
+                </span>
+                </summary>
+                <div class="details__content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum omnis beatae itaque! Maxime consequuntur architecto, voluptatibus iste aliquid quaerat dolores, culpa repellendus optio omnis rem saepe quisquam incidunt, numquam molestias?</p>
+                </div>
+              </details>
+              <details class="details">
+                <summary class="details__title">What markets does DOT CAR operate in?
+                  <span class="list-questions__quetion-title-btn">
+                    <svg class="list-questions__quetion-title-icon" width="10" height="6">
+                      <title>icon-chevron</title>
+                      <use href="./images/icons/chevron.svg#chevron"></use>
+                    </svg>
+                </span>
+                </summary>
+                <div class="details__content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum omnis beatae itaque! Maxime consequuntur architecto, voluptatibus iste aliquid quaerat dolores, culpa repellendus optio omnis rem saepe quisquam incidunt, numquam molestias?</p>
+                </div>
+              </details>
+            </div>
+          </div>
+        </div>
+      </section>
+     <!-- END frequently asked questions section-->
+
+     <!-- START footer -->
+      <footer class="footer">
+        <div class="custom-container">
+          <div class="footer__main-content-wrapper">
+            <nav class="footer-navigation">
+              <a href="#" class="logo header-logo footer__logo">
+                <img src="./images/icons/mini-logo.svg" alt="site logo">
+              </a>
+              <ul class="footer-navigation__links-items">
+                <li class="footer-navigation__links-item">
+                  <a href="#" class="footer-navigation__links-item-link">
+                    Terms and Conditions
+                  </a>
+                </li>
+                <li class="footer-navigation__links-item">
+                  <a href="#" class="footer-navigation__links-item-link">
+                    Pricelist
+                  </a>
+                </li>
+                <li class="footer-navigation__links-item">
+                  <a href="#" class="footer-navigation__links-item-link">
+                    Framework Agreement
+                  </a>
+                </li>
+                <li class="footer-navigation__links-item">
+                  <a href="#" class="footer-navigation__links-item-link">
+                    Support
+                  </a>
+                </li>
+                <li class="footer-navigation__links-item">
+                  <a href="#" class="footer-navigation__links-item-link">
+                    Official Notice
+                  </a>
+                </li>
+              </ul>
+              <div class="buttons footer__buttons">
+                <a href="#" class="btn btn-google">
+                  <img src="./images/icons/google-appstore-icons/play-market-icon.svg" alt="google play icon" class="btn__logo">
+                  <img src="./images/icons/google-appstore-icons/play-market-text.svg" alt="google play text" class="btn__text">
+                </a>
+                <a href="#" class="btn btn-apple">
+                  <img src="./images/icons/google-appstore-icons/app-store-icon.svg" alt="app store icon" class="btn__logo">
+                  <img src="./images/icons/google-appstore-icons/app-store-text.svg" alt="app store text" class="btn__text">
+                </a>
+              </div>
+            </nav>
+            <div class="footer__some-info-wrapper">
+              <p class="footer__copyright-text">
+                &copy; 2024 Dot Car. All rights reserved.
+              </p>
+              <ul class="footer__social-links-items">
+                <li class="footer__social-links-item">
+                  <a href="#" class="footer__social-links-item-link">
+                    <svg class="footer__social-links-item-link-icon" width="16" height="16">
+                      <title>icon-facebook</title>
+                      <use href="./images/icons/social-icons-sprite.svg#Facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer__social-links-item">
+                  <a href="#" class="footer__social-links-item-link">
+                    <svg class="footer__social-links-item-link-icon" width="16" height="16">
+                      <title>icon-instagram</title>
+                      <use href="./images/icons/social-icons-sprite.svg#Instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer__social-links-item">
+                  <a href="#" class="footer__social-links-item-link">
+                    <svg class="footer__social-links-item-link-icon" width="16" height="16">
+                      <title>icon-x</title>
+                      <use href="./images/icons/social-icons-sprite.svg#X-logo"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer__social-links-item">
+                  <a href="#" class="footer__social-links-item-link">
+                    <svg class="footer__social-links-item-link-icon" width="16" height="16">
+                      <title>icon-linkedIn</title>
+                      <use href="./images/icons/social-icons-sprite.svg#LinkedIn"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+              <div class="footer__privacy-policy-service-apply-links-wrapper">
+                <a href="#" class="footer__privacy-policy-service-apply-link">
+                  Privacy Policy
+                </a>
+                <a href="#" class="footer__privacy-policy-service-apply-link">
+                  Service apply
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+     <!-- END footer -->
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="./js/swiper.js" defer></script>
+    <script src="./js/select.js" defer></script>
+    <script src="./js/index.js" defer></script>
+  </body>
+</html>
