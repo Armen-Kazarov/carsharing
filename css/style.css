@@ -4518,6 +4518,22 @@
 }
 
 @media (max-width: 321px) {
+  .header-logo {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+
+  .custom-select, 
+  .burger-menu {
+    width: 110px;
+  }
+
+  .select-btn,
+  .menu__icon-wrapper {
+    width: 28px;
+    height: 28px;
+}
+
   .how-it-works-section__big-logo {
     height: 88vw;
   }
