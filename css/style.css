@@ -50,6 +50,15 @@
 
 @font-face {
   font-display: swap;
+  font-family: 'Open Sans', Sans-Serif;
+  font-weight:7400;
+  src: url('../fonts/opensans-bold.woff2') format('woff2'),
+       url('../fonts/opensans-bold.woff') format('woff'),
+       url('../fonts/opensans-bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-display: swap;
   font-family: 'Inter', Sans-Serif;
   font-weight: 400;
   src: url('../fonts/Inter-Regular.woff2') format('woff2'),
@@ -89,7 +98,7 @@
 
 .section-title {
   text-transform: uppercase;
-  font-family: 'Inter';
+  font-family: 'Open Sans', sans-serif;
   font-weight: var(--secondary-font-weight);
   font-size: 48px;
   line-height: 44px;
@@ -3556,11 +3565,11 @@
   }
 
   .buttons {
-    width: 100%;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    gap: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+     width: 100%;
+     gap: 16px;
   }
 
   .btn {
@@ -4367,6 +4376,12 @@
     }
   }
 
+ @media (max-width: 431px) {
+  .custom-select, .burger-menu {
+    width: 110px;
+  }
+}
+
 @media (max-width: 426px) {
   .hero__background-picture {
     background-size: 310% 123%;
@@ -4398,6 +4413,12 @@
 
   .sharing-give-list__item:hover .sharing-give-list__item-additional-text--margin-top-responsive {
     margin-top: 24px;
+  }
+}
+
+@media (max-width: 424px) {
+  .custom-select, .burger-menu {
+    width: 106px;
   }
 }
 
