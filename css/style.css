@@ -378,8 +378,6 @@
   background: linear-gradient(180deg, #1B1C22 0%, #424249 100%);
 }
 
-
-
 .burger-menu:hover:hover .menu__icon {
   -webkit-transform: rotate(11deg);
       -ms-transform: rotate(11deg);
@@ -658,7 +656,7 @@
 
 .hero__title {
   text-transform: uppercase;
-  font-family: 'Apercu Mono Pro';
+  font-family: 'Apercu Mono Pro', sans-serif;
   font-weight: var(--secondary-font-weight);
   font-size: 96px;
   line-height: 78px;
@@ -666,6 +664,7 @@
 }
 
 .hero__title span {
+  font-family: 'Apercu Mono Pro', sans-serif;
   font-size: 270px;
   line-height: 216px;
   position: absolute;
