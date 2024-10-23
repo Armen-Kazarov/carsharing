@@ -12,13 +12,13 @@
     padding: 0;
   }
   
-  body {
+  /* body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
           'Open Sans', 'Helvetica Neue', 'Bebas Neue', sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       scroll-behavior: smooth;
-  }
+  } */
   
   body._lock {
     overflow: hidden;

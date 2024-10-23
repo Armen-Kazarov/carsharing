@@ -27,8 +27,8 @@
   src: url('../fonts/ApercuMonoPro-Bold.woff2') format('woff2'),
         url('../fonts/BebasNeue-Regular.woff') format('woff'),
        url('../fonts/BebasNeue-Regular.ttf') format('ttf');
-       font-display: swap;
-}
+       /* font-display: swap;*/
+} 
 
 @font-face {
   font-display: swap;
