@@ -109,7 +109,6 @@
   border: none;
 }
 
-/* START swiper */
 .swiper,
 .swiper-initialized,
 .swiper-horizontal,
@@ -166,13 +165,11 @@
 .how-it-works-swiper-sliders__slide-info--pading-left {
   padding-left: 36px;
 }
-/* END swiper */
 
 .slider {
   display: none;
 }
 
-/* START header */
 .header {
   background: #fff;
   position: fixed;
@@ -301,7 +298,6 @@
   background: var(--primary-main-color-lighter); 
 }
 
-/* start burger menu */
 .logo-burger {
   display: block;
 }
@@ -539,10 +535,7 @@
 .menu-list-item:not(:last-child) {
   margin-bottom: 36px;
 }
-/* end burger menu */
-/* END header */
 
-/* START hero section */
 .hero {
   position: relative;
   padding-top: 90px;
@@ -689,9 +682,7 @@
   max-width: 1088px;
   max-height: 573px;
 }
-/* END hero section */
 
-/* START sharing give section */
 .sharing-give-list-section {
   padding-top: 70px;
   padding-bottom: 106px;
@@ -878,9 +869,7 @@
 .sharing-give-list__item:hover .sharing-give-list__item-img-wrapper--margin-bottom-small {
   margin-bottom: -48px;
 }
-/* END sharing give section */
 
-/* START download mobile app section */
 .download-mobile-app-section__content-wrapper {
   background: url('../images/download-app-section/background.jpg');
   background-repeat: no-repeat;
@@ -922,9 +911,7 @@
 .download-mobile-app-section__img-wrapper-img--visibility {
   display: none;
 }
-/* END download mobile app section */
 
-/* START how-it-works-section */
 .how-it-works-section {
   padding-top: 104px;
   padding-bottom: 108px;
@@ -1025,9 +1012,7 @@
 .how-it-works-steps-list-right__item-bottom {
   padding-left: 110px;
 }
-/* END how-it-works-section */
 
-/* START Available models section */
 .available-models-section {
   padding-top: 162px;
   background: url('../images/avaliable-models-section/background.jpg');
@@ -1125,9 +1110,7 @@
 .available-models-section__img {
   max-width: 96%;
 }
-/* END Available models section */
 
-/* START form with map section */
 .form-with-map-section {
   padding-top: 26px;
   padding-bottom: 80px;
@@ -1282,10 +1265,8 @@
   -webkit-transition: background-color 0.3s linear;
   -o-transition: background-color 0.3s linear;
   transition: background-color 0.3s linear;
- }
-/* END form with map section */
+}
 
-/* START frequently asked questions section */
 .frequently-asked-questions-section {
   background-color: #F6F4F1;
   padding-top: 22px;
@@ -1415,9 +1396,7 @@
 .details__content p:first-child {
   margin-top: 0;
 }
-/* END frequently asked questions section */
 
-/* START footer */
 .footer {
   background-color: #F6F4F1;
   padding-bottom: 30px;
@@ -1525,7 +1504,6 @@
 .footer__privacy-policy-service-apply-link:not(:last-child) {
   padding-right: 48px;
 }
-/* END footer */
 
 @media (max-width: 2561px) {
   .menu__body {
