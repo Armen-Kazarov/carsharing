@@ -432,7 +432,7 @@
   display: flex;
   top: 0;
   left: 100%;
-  width: 40%;
+  width: 45%;
   height: 100%;
   background: #F6F4F1;
   padding: 30px;
@@ -447,7 +447,7 @@
 }
 
 .menu__body._active {
-  left: 60%;
+  left: 55%;
 }
 
 .menu-list-buttons-wrapper {
@@ -1526,6 +1526,16 @@
   padding-right: 48px;
 }
 /* END footer */
+
+@media (max-width: 2561px) {
+  .menu__body {
+    width: 40%;
+  }
+  
+  .menu__body._active {
+    left: 60%;
+  }
+}
 
 @media (max-width: 1921px) {
   .available-models-section {
