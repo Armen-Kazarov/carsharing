@@ -2510,6 +2510,10 @@
     left: -18px;
   }
 
+  .download-mobile-app-section__img-wrapper {
+    top: -4px;
+  }
+
   .map-wrapper {
     padding-bottom: 60%;
   }
