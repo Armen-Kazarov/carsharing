@@ -1361,7 +1361,7 @@
   padding: 32px 32px;
   font-size: 24px;
   line-height: 20px;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', Sans-Serif;
   font-weight: var(--main-font-weight);
   color: var(--primary-main-color-lighter);
   cursor: pointer;
@@ -1377,7 +1377,7 @@
 }
 
 .details__content {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', Sans-Serif;
   font-weight: var(--main-font-weight);
   font-size: 20px;
   line-height: 26px;
