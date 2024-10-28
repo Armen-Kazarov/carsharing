@@ -3560,11 +3560,9 @@
   }
 
   .download-mobile-app-section {
-    background: url('../images/download-app-section/background.jpg');
-    background-size: 285% 114%;
-    background-position-x: right;
-    background-position-y: bottom;
+    background: url('../images/download-app-section/background-mobile.png');
     background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .download-mobile-app-section__content-wrapper {
