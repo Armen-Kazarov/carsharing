@@ -51,7 +51,7 @@
 @font-face {
   font-display: swap;
   font-family: 'Open Sans', Sans-Serif;
-  font-weight:7400;
+  font-weight: 700;
   src: url('../fonts/opensans-bold.woff2') format('woff2'),
        url('../fonts/opensans-bold.woff') format('woff'),
        url('../fonts/opensans-bold.ttf') format('ttf');
@@ -725,6 +725,7 @@
   border: solid 1px #E9E9E9;
   border-radius: 32px;
   height: 276px;
+  overflow: hidden;
 }
 
 .sharing-give-list__item-content-wrapper {
